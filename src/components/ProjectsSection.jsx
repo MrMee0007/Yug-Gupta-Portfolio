@@ -1,27 +1,27 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
-import { herovideo, video1, video2, video3, video4 } from "../assets/assets";
 
+// Replace these URLs with your actual Cloudinary video URLs
 const projects = [
   {
     title: "Recording Navjot — Short Clip",
     category: "Stage Frame",
-    video: video2,
+    video: "https://res.cloudinary.com/ds0y1ut9q/video/upload/v1771436754/video2_e2tuxy.mov",
   },
   {
     title: "Navjot Ahuja — Short Clip",
     category: "Stage Frame",
-    video: video1,
+    video: "https://res.cloudinary.com/ds0y1ut9q/video/upload/v1771436786/video1_vegko5.mov",
   },
   {
     title: "Navjot Ahuja — Short Clip",
     category: "Music Concert",
-    video: video3,
+    video: "https://res.cloudinary.com/ds0y1ut9q/video/upload/v1771436795/video3_iyj7s5.mov",
   },
   {
     title: "Ember & Smoke",
     category: "Public View Installation",
-    video: video4,
+    video: "https://res.cloudinary.com/ds0y1ut9q/video/upload/v1771436864/video4_ihdcqu.mov",
   },
 ];
 
@@ -39,12 +39,12 @@ const ProjectsSection = () => {
           className="mb-20 text-center"
         >
           <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6">
-  OFFICIAL VISUAL ARCHITECT — GALGOTIAS EVENT
-</h2>
-<p className="text-stone-400 max-w-xl mx-auto">
-  Specially invited to capture the spectacle — framing every light,
-  every movement, and every unforgettable moment.
-</p>
+            OFFICIAL VISUAL ARCHITECT — GALGOTIAS EVENT
+          </h2>
+          <p className="text-stone-400 max-w-xl mx-auto">
+            Specially invited to capture the spectacle — framing every light,
+            every movement, and every unforgettable moment.
+          </p>
         </motion.div>
 
         {/* Featured Large Video */}
