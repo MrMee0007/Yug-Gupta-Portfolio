@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Work from './pages/Work'
-import HireMe from './components/Hireme'
+import HireMe from './components/HireMe'
 import ContactSection from './components/ContactSection'
 
 const App = () => {
